@@ -61,8 +61,13 @@ body {
 }
 
 @keyframes bounce {
-    from { transform: translateY(0); }
-    to { transform: translateY(-10px); }
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-10px);
+    }
 }
 
 .c1-body {
@@ -84,7 +89,7 @@ body {
     margin-top: 20px;
 }
 
-.c1-icons i{
+.c1-icons i {
     color: var(--orange-yellow);
 }
 
@@ -116,7 +121,7 @@ body {
     font-size: 16px;
 }
 
-#icon-linkedin{
+#icon-linkedin {
     margin-right: 10px;
 }
 
@@ -200,8 +205,15 @@ body {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .section h2 {
@@ -225,7 +237,7 @@ body {
     background-color: #4e4e4e;
     color: var(--orange-yellow);
     border: 2px solid #4e4e4e;
-    
+
 }
 
 /* Skills Section */
@@ -285,11 +297,11 @@ body {
     background-color: #3e3e3e;
     border-radius: 20px;
     transition: transform var(--transition-time) ease, box-shadow var(--transition-time) ease;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
     margin: 0 0 10px;
     perspective: 1000px;
-    box-shadow: 5px 5px 20px -5px var(--orange-yellow);
+    box-shadow: 5px 5px 10px 0px #4e4e4e;
 }
+
 
 .project-container a {
     text-decoration: none;
@@ -309,10 +321,11 @@ body {
     transform: rotateY(20deg) rotateX(10deg);
 }
 
-.project-container:hover{
-    transform:  scale(1.05);
+.project-container:hover {
+    transform: scale(1.05);
     animation: bounce 0.5s ease infinite alternate;
 }
+
 .project-container img {
     height: 180px;
     width: 180px;
@@ -345,8 +358,15 @@ body {
 }
 
 @keyframes slideIn {
-    from { opacity: 0; transform: translateX(-20px); }
-    to { opacity: 1; transform: translateX(0); }
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .cont-item:hover {
@@ -586,7 +606,7 @@ body {
         height: 560px;
     }
 
-    .c1-icons #icon-phone{
+    .c1-icons #icon-phone {
         margin-right: 60px;
     }
 
@@ -651,7 +671,7 @@ body {
     }
 
     .skills-list {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 8px;
     }
 
@@ -668,7 +688,7 @@ body {
     }
 
     .projects-list {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
 
@@ -687,7 +707,7 @@ body {
     }
 
     .contact-container {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 8px;
     }
 
