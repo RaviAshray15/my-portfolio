@@ -84,6 +84,10 @@ body {
     margin-top: 20px;
 }
 
+.c1-icons i{
+    color: var(--orange-yellow);
+}
+
 .c1-icons a {
     width: 45px;
     height: 45px;
@@ -166,6 +170,7 @@ body {
     font-weight: 700;
 }
 
+/* About Section */
 .content {
     padding: 20px 40px;
     color: white;
@@ -222,6 +227,8 @@ body {
     border: 2px solid #4e4e4e;
     
 }
+
+/* Skills Section */
 
 .skills-list {
     display: grid;
@@ -576,6 +583,10 @@ body {
         width: 95%;
         padding: 15px 10px;
         overflow-x: hidden;
+    }
+
+    .c1-icons #icon-phone{
+        margin-right: 60px;
     }
 
     .container-2 {
