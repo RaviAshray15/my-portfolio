@@ -143,7 +143,7 @@
                 <h2>Projects</h2>
                 <div class="projects-list">
                     <div class="project-container">
-                        <a href="https://github.com/RaviAshray15/Temperature-Converter" target="_blank">
+                        <a href="https://temp-conv-pink.vercel.app/" target="_blank">
                             <img src="images/temp-conv.png">
                             <p>Temperature Converter</p>
                         </a>
@@ -155,7 +155,7 @@
                         </a>
                     </div>
                     <div class="project-container">
-                        <a href="https://github.com/RaviAshray15/rock-paper-scissors" target="_blank">
+                        <a href="https://rrock-paper-scissors.netlify.app/" target="_blank">
                             <img src="images/rps.png">
                             <p>Rock Paper Scissors</p>
                         </a>
@@ -164,6 +164,12 @@
                         <a href="https://github.com/RaviAshray15/Home-Security-System" target="_blank">
                             <img src="images/hss.png">
                             <p>Home Security System</p>
+                        </a>
+                    </div>
+                    <div class="project-container">
+                        <a href="https://sentiment-analysis123.streamlit.app/" target="_blank">
+                            <img src="images/sa.png">
+                            <p>Sentiment Analysis</p>
                         </a>
                     </div>
                 </div>
@@ -230,24 +236,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script>
-        const navLinks = document.querySelectorAll('.navbar a');
-        const sections = document.querySelectorAll('.section');
-
-        navLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault(); 
-
-                navLinks.forEach(l => l.classList.remove('active'));
-                sections.forEach(s => s.classList.remove('active'));
-
-                link.classList.add('active');
-
-                const sectionId = link.getAttribute('data-section');
-                const targetSection = document.getElementById(sectionId);
-                targetSection.classList.add('active');
-            });
-        });
+    <script src="script.js">
     </script>
 </body>
 
