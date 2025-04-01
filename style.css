@@ -583,6 +583,7 @@ body {
         width: 95%;
         padding: 15px 10px;
         overflow-x: hidden;
+        height: 560px;
     }
 
     .c1-icons #icon-phone{
@@ -650,7 +651,7 @@ body {
     }
 
     .skills-list {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
         gap: 8px;
     }
 
@@ -686,7 +687,7 @@ body {
     }
 
     .contact-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
         gap: 8px;
     }
 
